@@ -2,9 +2,9 @@ from requests import get
 import string
 from time import sleep
 
-url = "https://los.rubiya.kr/chall/orc_60e5b360f95c1f9688e4f3a86c5dd494.php"
+url = "https://los.rubiya.kr/chall/orc.php"
 
-cookies = dict(PHPSESSID="qrcmp09aibor0hq6m85v55vpgh")
+cookies = dict(PHPSESSID="")
 special_strings = "~!@#$%^&*()+-_{}[]<>"
 alpha = string.ascii_letters+string.digits+special_strings
 result = ""
